@@ -1,12 +1,33 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navbar from "@/components/erp/Navbar";
+import HeroSection from "@/components/erp/HeroSection";
+import TrustedBrands from "@/components/erp/TrustedBrands";
+import IndustriesSection from "@/components/erp/IndustriesSection";
+import ServicesSection from "@/components/erp/ServicesSection";
+import ModulesSection from "@/components/erp/ModulesSection";
+import WhyChooseUs from "@/components/erp/WhyChooseUs";
+import SecuritySection from "@/components/erp/SecuritySection";
+import CaseStudiesSection from "@/components/erp/CaseStudiesSection";
+import TeamSection from "@/components/erp/TeamSection";
+import CTASection from "@/components/erp/CTASection";
+import Footer from "@/components/erp/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Navbar />
+      <main>
+        <HeroSection />
+        <TrustedBrands />
+        <IndustriesSection />
+        <ServicesSection />
+        <ModulesSection />
+        <WhyChooseUs />
+        <SecuritySection />
+        <CaseStudiesSection />
+        <TeamSection />
+        <CTASection />
+      </main>
+      <Footer />
     </div>
   );
 };
