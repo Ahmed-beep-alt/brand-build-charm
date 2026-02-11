@@ -8,6 +8,7 @@ import WhyChooseUs from "@/components/erp/WhyChooseUs";
 import SecuritySection from "@/components/erp/SecuritySection";
 import CaseStudiesSection from "@/components/erp/CaseStudiesSection";
 import TeamSection from "@/components/erp/TeamSection";
+import ContactSection from "@/components/erp/ContactSection";
 import CTASection from "@/components/erp/CTASection";
 import Footer from "@/components/erp/Footer";
 
@@ -25,6 +26,7 @@ const Index = () => {
         <SecuritySection />
         <CaseStudiesSection />
         <TeamSection />
+        <ContactSection />
         <CTASection />
       </main>
       <Footer />
