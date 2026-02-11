@@ -9,6 +9,7 @@ const navLinks = [
   { label: "Why Us", href: "#why-us" },
   { label: "Case Studies", href: "#case-studies" },
   { label: "Team", href: "#team" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
