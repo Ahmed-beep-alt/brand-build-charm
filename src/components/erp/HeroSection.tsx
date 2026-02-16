@@ -51,7 +51,7 @@ const HeroSection = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-primary/40 bg-white/10 text-white hover:bg-white/20 text-base shadow-lg"
+                className="border-white/30 bg-white/15 text-white hover:bg-white/25 text-base shadow-lg backdrop-blur-sm"
               >
                 View Case Studies
               </Button>

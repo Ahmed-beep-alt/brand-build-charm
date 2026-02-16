@@ -26,7 +26,7 @@ const CTASection = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-white/20 text-white hover:bg-white/10 gap-2 text-base"
+              className="border-white/30 bg-white/15 text-white hover:bg-white/25 gap-2 text-base backdrop-blur-sm shadow-lg"
             >
               <Mail className="w-4 h-4" /> Contact Us
             </Button>
