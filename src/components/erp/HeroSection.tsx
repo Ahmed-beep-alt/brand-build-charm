@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Shield, Clock, Users } from "lucide-react";
+import { ArrowRight, Shield, Clock, Users, CalendarDays } from "lucide-react";
 
 const stats = [
   { icon: Shield, value: "Certified", label: "Odoo Silver Partner" },
@@ -46,7 +46,7 @@ const HeroSection = () => {
 
             <div className="flex flex-wrap gap-4 mb-12">
               <Button size="lg" className="bg-accent text-accent-foreground hover:bg-accent/90 gap-2 text-base">
-                Get Started <ArrowRight className="w-4 h-4" />
+                <CalendarDays className="w-4 h-4" /> Book a Meeting
               </Button>
               <Button
                 size="lg"
@@ -68,7 +68,7 @@ const HeroSection = () => {
             </div>
           </motion.div>
 
-          {/* Right visual */}
+          {/* Right visual - ERP Image */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             animate={{ opacity: 1, x: 0 }}
@@ -76,42 +76,37 @@ const HeroSection = () => {
             className="hidden lg:block"
           >
             <div className="relative">
-              {/* Floating cards */}
-              <div className="absolute -top-4 -left-4 w-72 h-48 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm p-6">
-                <div className="text-sm font-medium text-white/60 mb-2">Real-Time Dashboard</div>
-                <div className="space-y-3">
-                  <div className="h-3 bg-primary/30 rounded-full w-full" />
-                  <div className="h-3 bg-warm/30 rounded-full w-3/4" />
-                  <div className="h-3 bg-primary/20 rounded-full w-1/2" />
-                </div>
-                <div className="mt-4 flex gap-2">
-                  <div className="w-12 h-12 rounded-lg bg-primary/20" />
-                  <div className="w-12 h-12 rounded-lg bg-warm/20" />
-                  <div className="w-12 h-12 rounded-lg bg-primary/15" />
-                </div>
+              <div className="rounded-2xl overflow-hidden shadow-2xl shadow-black/30 border border-white/10">
+                <img
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200&auto=format&fit=crop"
+                  alt="Brain Station 23 ERP Dashboard - Enterprise Resource Planning Solution"
+                  className="w-full h-[480px] object-cover"
+                  loading="eager"
+                />
+                {/* Overlay gradient */}
+                <div className="absolute inset-0 bg-gradient-to-t from-navy/60 via-transparent to-transparent rounded-2xl" />
               </div>
 
-              <div className="absolute top-32 right-0 w-64 h-40 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm p-6">
-                <div className="text-sm font-medium text-white/60 mb-3">Revenue Growth</div>
-                <div className="flex items-end gap-2 h-16">
-                  {[40, 55, 35, 70, 50, 80, 65, 90].map((h, i) => (
-                    <div
-                      key={i}
-                      className="flex-1 rounded-t bg-gradient-to-t from-primary to-primary/50"
-                      style={{ height: `${h}%` }}
-                    />
-                  ))}
-                </div>
-              </div>
+              {/* Floating stat badge */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.8 }}
+                className="absolute -bottom-4 -left-4 bg-card/95 backdrop-blur-md rounded-2xl border border-border p-5 shadow-xl"
+              >
+                <div className="text-3xl font-bold text-accent">9+</div>
+                <div className="text-xs text-muted-foreground mt-1">Integrated Modules</div>
+              </motion.div>
 
-              <div className="absolute bottom-0 left-8 w-60 h-36 bg-white/5 rounded-2xl border border-white/10 backdrop-blur-sm p-6">
-                <div className="text-sm font-medium text-white/60 mb-2">Modules Active</div>
-                <div className="text-3xl font-bold text-warm">9+</div>
-                <div className="text-xs text-white/40 mt-1">Fully integrated modules</div>
-              </div>
-
-              {/* Spacer for layout */}
-              <div className="w-full h-[400px]" />
+              <motion.div
+                initial={{ opacity: 0, y: -20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1 }}
+                className="absolute -top-4 -right-4 bg-card/95 backdrop-blur-md rounded-2xl border border-border p-5 shadow-xl"
+              >
+                <div className="text-3xl font-bold text-primary">60%</div>
+                <div className="text-xs text-muted-foreground mt-1">Faster Operations</div>
+              </motion.div>
             </div>
           </motion.div>
         </div>
