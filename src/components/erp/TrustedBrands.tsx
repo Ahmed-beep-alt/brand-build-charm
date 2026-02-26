@@ -27,22 +27,21 @@ const brands = [
 
 const TrustedBrands = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-muted/20 via-background to-muted/20 border-y border-border">
+    <section className="py-16 bg-background border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="mb-10"
         >
-          <span className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-primary/15 to-accent/15 text-primary text-xs font-semibold uppercase tracking-wider mb-3 border border-primary/20">
-            Trusted Partners
-          </span>
           <h3 className="text-xl sm:text-2xl font-bold text-foreground">
-            Trusted by Leading Brands Across Industries
+            Trusted by fast-moving tech teams{" "}
+            <span className="text-muted-foreground">from startups to enterprises</span>
           </h3>
         </motion.div>
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-5">
+
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
           {brands.map((brand, i) => (
             <motion.div
               key={brand.name}
@@ -50,16 +49,18 @@ const TrustedBrands = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.04 }}
-              className="group flex items-center justify-center px-6 py-5 rounded-2xl bg-card border border-border hover:border-primary/40 hover:shadow-lg hover:shadow-primary/8 transition-all duration-300 h-24"
+              className="group flex items-center justify-center px-5 py-4 rounded-xl bg-card border border-border hover:border-primary/30 hover:shadow-lg transition-all duration-300 h-20"
             >
               {brand.logo ? (
                 <img
                   src={brand.logo}
                   alt={brand.name}
-                  className="max-h-14 max-w-[130px] object-contain group-hover:scale-110 transition-transform duration-300"
+                  className="max-h-12 max-w-[120px] object-contain group-hover:scale-105 transition-transform duration-300"
                 />
               ) : (
-                <span className="text-base font-bold text-muted-foreground group-hover:text-primary transition-colors duration-300">{brand.name}</span>
+                <span className="text-sm font-bold text-muted-foreground group-hover:text-primary transition-colors duration-300">
+                  {brand.name}
+                </span>
               )}
             </motion.div>
           ))}
