@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { Factory, ShoppingCart, Globe, Truck, Heart, GraduationCap, Briefcase, Building2 } from "lucide-react";
 
 const industries = [
-  { icon: Factory, label: "Manufacturing", color: "from-primary/20 to-teal-50", iconBg: "bg-primary" },
-  { icon: ShoppingCart, label: "Retail & Distribution", color: "from-accent/20 to-orange-50", iconBg: "bg-accent" },
-  { icon: Globe, label: "E-commerce", color: "from-blue-100 to-sky-50", iconBg: "bg-blue-500" },
-  { icon: Truck, label: "Logistics & Supply Chain", color: "from-emerald-100 to-teal-50", iconBg: "bg-emerald-500" },
-  { icon: Heart, label: "Healthcare", color: "from-rose-100 to-pink-50", iconBg: "bg-rose-500" },
-  { icon: GraduationCap, label: "Education", color: "from-violet-100 to-purple-50", iconBg: "bg-violet-500" },
-  { icon: Briefcase, label: "Professional Services", color: "from-amber-100 to-yellow-50", iconBg: "bg-amber-500" },
-  { icon: Building2, label: "Enterprises & SMEs", color: "from-primary/15 to-cyan-50", iconBg: "bg-primary" },
+  { icon: Factory, label: "Manufacturing", sub: "BoM, MRP & Production Control", color: "from-primary/20 to-teal-50", iconBg: "bg-primary" },
+  { icon: ShoppingCart, label: "Retail & Distribution", sub: "POS, Inventory & Multi-Channel", color: "from-accent/20 to-orange-50", iconBg: "bg-accent" },
+  { icon: Globe, label: "E-commerce", sub: "Orders, Fulfillment & Returns", color: "from-blue-100 to-sky-50", iconBg: "bg-blue-500" },
+  { icon: Truck, label: "Logistics & Supply Chain", sub: "Fleet, Routing & Tracking", color: "from-emerald-100 to-teal-50", iconBg: "bg-emerald-500" },
+  { icon: Heart, label: "Healthcare", sub: "Patient, Billing & Compliance", color: "from-rose-100 to-pink-50", iconBg: "bg-rose-500" },
+  { icon: GraduationCap, label: "Education", sub: "Admissions, Fee & LMS", color: "from-violet-100 to-purple-50", iconBg: "bg-violet-500" },
+  { icon: Briefcase, label: "Professional Services", sub: "Projects, Timesheets & Billing", color: "from-amber-100 to-yellow-50", iconBg: "bg-amber-500" },
+  { icon: Building2, label: "Enterprises & SMEs", sub: "Scalable Multi-Entity ERP", color: "from-primary/15 to-cyan-50", iconBg: "bg-primary" },
 ];
 
 const IndustriesSection = () => {
@@ -25,7 +25,10 @@ const IndustriesSection = () => {
           <span className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-primary/15 to-accent/15 text-primary text-xs font-semibold uppercase tracking-wider mb-4 border border-primary/20">
             Industries
           </span>
-          <h2 className="text-3xl sm:text-4xl font-bold text-foreground">Industries We Serve</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">Built for Industries Where Complexity Is the Norm</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            We don't do generic ERP. Each industry has unique compliance rules, workflows, and scaling challenges — and we've built proven Odoo solutions for every one of them.
+          </p>
         </motion.div>
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -42,6 +45,7 @@ const IndustriesSection = () => {
                 <ind.icon className="w-7 h-7 text-white" />
               </div>
               <span className="text-sm font-semibold text-foreground">{ind.label}</span>
+              <span className="text-[11px] text-muted-foreground">{ind.sub}</span>
             </motion.div>
           ))}
         </div>

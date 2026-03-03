@@ -61,10 +61,10 @@ const ContactSection = () => {
               Contact Us
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-              Get in Touch
+              Let's Talk About What's Slowing Your Business Down
             </h2>
             <p className="text-muted-foreground mb-8 max-w-lg">
-              Have a project in mind? Our experts are just a message away. Let's collaborate to create cutting-edge ERP solutions that drive growth.
+              Whether you're evaluating ERP for the first time or replacing a system that no longer fits — our solution architects will help you map a clear path forward. No sales pitch, just expert advice.
             </p>
 
             <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
@@ -107,7 +107,8 @@ const ContactSection = () => {
             viewport={{ once: true }}
           >
             <form onSubmit={handleSubmit} className="bg-card rounded-2xl border border-border p-8 shadow-lg sticky top-24">
-              <h3 className="text-xl font-semibold text-foreground mb-6">Contact Us</h3>
+              <h3 className="text-xl font-semibold text-foreground mb-2">Request a Free ERP Consultation</h3>
+              <p className="text-sm text-muted-foreground mb-6">Fill out the form and our solution architect will get back to you within 24 hours.</p>
               <div className="grid sm:grid-cols-2 gap-4 mb-4">
                 <div>
                   <label className="block text-sm font-medium text-foreground mb-1.5">Full Name*</label>

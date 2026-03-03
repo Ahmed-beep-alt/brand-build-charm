@@ -68,13 +68,14 @@ const TeamSection = () => {
               Our Team
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-6">
-              Meet Our <span className="bg-gradient-to-r from-primary to-teal bg-clip-text text-transparent">ERP Experts</span>
+              55+ ERP Specialists.{" "}
+              <span className="bg-gradient-to-r from-primary to-teal bg-clip-text text-transparent">One Mission.</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Our strength lies in our people. Brain Station 23's ERP team brings together certified Odoo professionals, solution architects, and industry specialists who understand both technology and business operations.
+              Behind every successful ERP deployment is a team that understands both the technology and the business it serves. Our certified Odoo architects, developers, and analysts have collectively delivered 50+ enterprise projects — across manufacturing, logistics, finance, and beyond.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">
-              We work closely with clients to design, implement, and optimize Odoo ERP solutions that align with real-world processes, industry policies, and long-term growth goals.
+              We don't rotate junior staff onto your project. You get senior professionals who've solved problems like yours before — and who stay with you from blueprint to go-live and beyond.
             </p>
 
             <div className="grid grid-cols-3 gap-4">

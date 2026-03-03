@@ -10,9 +10,9 @@ const caseStudies = [
     accentColor: "bg-primary",
     accentText: "text-primary",
     challenge:
-      "BSEZ operated with fragmented manual processes across finance, procurement, HR, and zone management — leading to data silos, delayed reporting, and operational bottlenecks.",
+      "Managing an entire economic zone on spreadsheets and disconnected tools meant finance couldn't reconcile with procurement, HR had no visibility into headcount costs, and compliance reporting took weeks instead of hours.",
     solution:
-      "Brain Station 23 implemented a fully customized Odoo ERP covering finance, HR, procurement, inventory, and zone-specific compliance workflows with real-time dashboards.",
+      "We deployed a unified Odoo ERP ecosystem — automating financial reconciliation, procurement approvals, payroll processing, and zone compliance reporting into a single dashboard. Every department now operates from one source of truth.",
     modules: ["Finance & Accounting", "HR & Payroll", "Procurement", "Inventory", "Project Management"],
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800&auto=format&fit=crop",
     metrics: [
@@ -27,9 +27,9 @@ const caseStudies = [
     accentColor: "bg-accent",
     accentText: "text-accent",
     challenge:
-      "Ispahani's multi-location manufacturing operations relied on disconnected legacy systems, making production planning, costing, and inventory control error-prone and slow.",
+      "Production managers were flying blind — material costs were tracked in Excel, inventory counts didn't match reality, and production delays went undetected until shipments were missed. Across multiple factories, nobody had a unified view.",
     solution:
-      "Brain Station 23 deployed Odoo ERP with multi-level BoM, MRP, integrated costing, and warehouse management — connecting production floors to the boardroom.",
+      "We implemented Odoo Manufacturing with multi-level BoM, MRP-driven production scheduling, real-time costing, and multi-warehouse inventory sync — connecting every production floor directly to finance and procurement in real time.",
     modules: ["Manufacturing & MRP", "Inventory", "Finance", "Purchase", "Quality Control"],
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=800&auto=format&fit=crop",
     metrics: [
@@ -44,9 +44,9 @@ const caseStudies = [
     accentColor: "bg-blue-500",
     accentText: "text-blue-500",
     challenge:
-      "Complex import/export processes, LC tracking, and multi-vendor procurement created delays and compliance risks across Sea Resources Group's operations.",
+      "Every import shipment was a gamble — LC documents were tracked manually, vendor payments had no audit trail, and procurement teams spent more time chasing paperwork than negotiating better deals. Compliance gaps were a constant risk.",
     solution:
-      "Brain Station 23 implemented Odoo with custom LC management, foreign procurement workflows, vendor scoring, and integrated logistics tracking.",
+      "We built custom Odoo modules for LC lifecycle management, automated foreign procurement workflows with multi-currency support, vendor scoring dashboards, and end-to-end logistics tracking — eliminating manual handoffs and compliance blind spots.",
     modules: ["Purchase & Vendor Management", "Inventory", "Finance", "Sales & CRM"],
     image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?q=80&w=800&auto=format&fit=crop",
     metrics: [
@@ -99,10 +99,10 @@ const CaseStudiesSection = () => {
             Use Cases
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Our Use Cases
+            Real Problems. Real Solutions. Measurable Results.
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Real-world ERP transformations delivered by Brain Station 23 for leading enterprises.
+            Every business we work with had a breaking point — where legacy systems couldn't keep up. Here's how we turned operational chaos into competitive advantage.
           </p>
         </motion.div>
 

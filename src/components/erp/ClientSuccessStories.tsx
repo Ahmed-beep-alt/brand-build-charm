@@ -8,7 +8,7 @@ const testimonials = [
     role: "CTO, BSEZ",
     company: "Bangladesh Special Economic Zone",
     quote:
-      "Brain Station 23 transformed our entire zone management with Odoo ERP. The real-time dashboards and automated compliance workflows reduced our processing time by 60%. Their deep understanding of our operational challenges made all the difference.",
+      "Before Brain Station 23, our finance team spent 3 weeks just closing the books each month. Now it takes 3 days. The real-time dashboards changed how our leadership makes decisions — we went from guessing to knowing. That's not an upgrade, that's a transformation.",
     videoThumb: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=600&auto=format&fit=crop",
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
     role: "Head of IT, Ispahani Group",
     company: "Ispahani Group",
     quote:
-      "The MRP and multi-level BoM implementation was seamless. We now have complete visibility from production floor to finance. Brain Station 23's team understood manufacturing ERP inside out.",
+      "We used to lose lakhs every quarter to production miscalculations and inventory mismatches. Brain Station 23 didn't just install software — they understood our factory floor, mapped every bottleneck, and gave us a system where production cost, material flow, and finance all speak the same language.",
     videoThumb: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=600&auto=format&fit=crop",
   },
 ];
@@ -36,10 +36,10 @@ const ClientSuccessStories = () => {
               Testimonials
             </span>
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
-              Client Success Stories
+              Don't Take Our Word for It
             </h2>
             <p className="text-muted-foreground mt-3 max-w-lg">
-              Hear valuable feedback from the clients we have had the privilege to work with.
+              Our clients went from operational chaos to full control — here's what that transformation looks like in their own words.
             </p>
           </div>
           <Button variant="outline" className="mt-4 sm:mt-0 gap-2 border-border text-foreground hover:bg-primary/10">
