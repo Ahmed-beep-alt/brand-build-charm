@@ -5,42 +5,42 @@ const services = [
   {
     icon: Settings,
     title: "Odoo Implementation",
-    desc: "Structured, end-to-end deployment aligned with your business processes.",
+    desc: "Starting from scratch? We don't just install Odoo — we map your workflows, configure modules to your policies, and deploy a system your team actually adopts from day one.",
     gradient: "from-primary/20 to-teal-light",
     iconBg: "bg-primary",
   },
   {
     icon: Wrench,
     title: "Odoo Customization",
-    desc: "Workflow-driven customization and module development tailored to operational needs.",
+    desc: "Off-the-shelf doesn't fit your business? We build custom modules, workflows, and automations that match how your teams actually work — not how generic software thinks they should.",
     gradient: "from-accent/20 to-orange-100",
     iconBg: "bg-accent",
   },
   {
     icon: RefreshCw,
     title: "Odoo Migration",
-    desc: "Secure migration from legacy systems or older Odoo versions with full data integrity.",
+    desc: "Stuck on outdated systems or an older Odoo version? We migrate your data, configurations, and customizations with zero downtime and complete data integrity — so you don't lose a single record.",
     gradient: "from-emerald-100 to-teal-50",
     iconBg: "bg-emerald-500",
   },
   {
     icon: Link,
     title: "Odoo Integration",
-    desc: "Seamless integration with third-party applications, payment gateways, and enterprise systems.",
+    desc: "Your ERP shouldn't be an island. We connect Odoo with payment gateways, e-commerce platforms, logistics APIs, and enterprise tools — creating a seamless digital ecosystem.",
     gradient: "from-blue-100 to-sky-50",
     iconBg: "bg-blue-500",
   },
   {
     icon: MessageSquare,
     title: "Odoo Consultation",
-    desc: "Strategic ERP advisory covering solution design, module selection, and roadmap planning.",
+    desc: "Not sure where to start? Our ERP strategists assess your operations, recommend the right modules, and build a phased roadmap — so you invest in what actually moves the needle.",
     gradient: "from-violet-100 to-purple-50",
     iconBg: "bg-violet-500",
   },
   {
     icon: Headphones,
     title: "Odoo Support & Maintenance",
-    desc: "Continuous support, upgrades, performance monitoring, and system optimization.",
+    desc: "Your ERP is live — now keep it running at peak performance. We provide ongoing monitoring, upgrades, bug fixes, and optimization so your system evolves with your business.",
     gradient: "from-rose-100 to-pink-50",
     iconBg: "bg-rose-500",
   },
@@ -60,11 +60,10 @@ const ServicesSection = () => {
             Our Services
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Comprehensive Odoo ERP Services
+            Every Stage of Your ERP Journey, Covered
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            End-to-end Odoo ERP services to streamline operations, enhance visibility,
-            and enable scalable business growth.
+            Whether you're deploying Odoo for the first time, outgrowing your current setup, or migrating from legacy systems — we meet you exactly where you are and take you where you need to be.
           </p>
         </motion.div>
 

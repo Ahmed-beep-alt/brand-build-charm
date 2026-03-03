@@ -24,14 +24,13 @@ const HeroSection = () => {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-navy-foreground leading-[1.15] mb-6">
-              Enterprise-Grade{" "}
-              <span className="text-warm">ERP Solutions</span>{" "}
-              with Odoo
+              Stop Running Your Business{" "}
+              <span className="text-warm">on Disconnected Tools</span>
             </h1>
 
             <p className="text-lg text-navy-foreground/60 max-w-xl mb-10 leading-relaxed">
-              Brain Station 23 delivers Odoo ERP solutions that help organizations unify operations,
-              improve efficiency, and gain real-time business visibility across the full ERP lifecycle.
+              Your teams juggle spreadsheets, legacy software, and manual approvals every day — costing you time, money, and growth.
+              Brain Station 23 deploys Odoo ERP to unify every department into one intelligent platform, giving you real-time control from procurement to profit.
             </p>
 
             <Button

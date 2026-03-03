@@ -4,43 +4,43 @@ import { Layers, Eye, Zap, TrendingUp, Building, Award } from "lucide-react";
 const reasons = [
   {
     icon: Layers,
-    title: "Fragmented Systems & Data Silos",
-    desc: "We deliver a unified Odoo ERP platform with seamless cross-module integration and a single source of truth.",
+    title: "Your Data Lives in 10 Different Places",
+    desc: "Sales in one tool, inventory in another, finance in a spreadsheet. We unify everything into one Odoo platform — so every team works from the same real-time data.",
     gradient: "from-primary/15 to-teal-50",
     iconBg: "bg-primary",
   },
   {
     icon: Eye,
-    title: "Limited Operational Visibility",
-    desc: "We implement real-time dashboards, KPIs, and reporting frameworks tailored to management and operational teams.",
+    title: "You Can't See What's Actually Happening",
+    desc: "If your leadership needs to ask for reports instead of seeing live dashboards, you're making decisions on outdated data. We build real-time KPIs and operational visibility into every module.",
     gradient: "from-blue-100 to-sky-50",
     iconBg: "bg-blue-500",
   },
   {
     icon: Zap,
-    title: "Manual, Policy-Heavy Processes",
-    desc: "We automate workflows, approvals, and business rules aligned with organizational policies and industry practices.",
+    title: "Too Many Manual Approvals & Workarounds",
+    desc: "If your team spends more time on approvals and follow-ups than actual work, your processes need automation. We digitize workflows, routing, and business rules — aligned to your company policies.",
     gradient: "from-accent/15 to-amber-50",
     iconBg: "bg-accent",
   },
   {
     icon: TrendingUp,
-    title: "Inability to Scale with Growth",
-    desc: "Our Odoo ERP solutions are designed with scalable architecture to support growth across users, locations, and regions.",
+    title: "Growth is Breaking Your Systems",
+    desc: "What worked for 50 employees doesn't work for 500. We architect Odoo ERP for scalable multi-location, multi-company, and multi-currency operations — so your system grows with you, not against you.",
     gradient: "from-emerald-100 to-teal-50",
     iconBg: "bg-emerald-500",
   },
   {
     icon: Building,
-    title: "Industry-Specific Complexity",
-    desc: "We customize Odoo ERP to match industry-specific processes — without compromising system stability.",
+    title: "Generic ERP Doesn't Fit Your Industry",
+    desc: "Cookie-cutter solutions create more problems than they solve. We customize Odoo to match your industry's specific compliance rules, production processes, and operational workflows — without compromising stability.",
     gradient: "from-violet-100 to-purple-50",
     iconBg: "bg-violet-500",
   },
   {
     icon: Award,
-    title: "Lack of ERP Expertise & Direction",
-    desc: "As an Odoo Silver Partner, we provide end-to-end ERP leadership — from solution design to long-term optimization.",
+    title: "You Need a Partner, Not Just a Vendor",
+    desc: "As a certified Odoo Silver Partner with 50+ enterprise deployments, we don't disappear after go-live. We provide strategic ERP leadership from roadmap planning through long-term optimization.",
     gradient: "from-rose-100 to-pink-50",
     iconBg: "bg-rose-500",
   },
@@ -60,10 +60,10 @@ const WhyChooseUs = () => {
             Why Us
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground mb-4">
-            Why Businesses Choose Brain Station 23
+            We Don't Just Implement ERP — We Solve the Problems That Made You Need One
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            We solve the real challenges that hold businesses back when their ERP systems can no longer support operational complexity, scale, or industry-specific requirements.
+            Most companies don't wake up wanting ERP — they wake up frustrated by broken processes, invisible data, and teams that can't scale. Here's how we fix that.
           </p>
         </motion.div>
 
