@@ -24,13 +24,13 @@ const HeroSection = () => {
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-bold text-navy-foreground leading-[1.15] mb-6">
-              Stop Running Your Business{" "}
-              <span className="text-warm">on Disconnected Tools</span>
+              One Platform to{" "}
+              <span className="text-warm">Unify, Automate & Scale</span>{" "}
+              Your Entire Business
             </h1>
 
             <p className="text-lg text-navy-foreground/60 max-w-xl mb-10 leading-relaxed">
-              Your teams juggle spreadsheets, legacy software, and manual approvals every day — costing you time, money, and growth.
-              Brain Station 23 deploys Odoo ERP to unify every department into one intelligent platform, giving you real-time control from procurement to profit.
+              Fragmented systems drain productivity and hide the insights you need to grow. As a certified Odoo Silver Partner, Brain Station 23 replaces scattered tools with a single intelligent ERP — giving your leadership real-time visibility from warehouse to balance sheet.
             </p>
 
             <Button
