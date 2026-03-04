@@ -48,7 +48,7 @@ const caseStudies = [
     solution:
       "We built custom Odoo modules for LC lifecycle management, automated foreign procurement workflows with multi-currency support, vendor scoring dashboards, and end-to-end logistics tracking — eliminating manual handoffs and compliance blind spots.",
     modules: ["Purchase & Vendor Management", "Inventory", "Finance", "Sales & CRM"],
-    image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5eb19?q=80&w=800&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1578575437130-527eed3abbec?q=80&w=800&auto=format&fit=crop",
     metrics: [
       { value: "50%", label: "Faster procurement cycle time" },
       { value: "100%", label: "Automated LC and import tracking" },
